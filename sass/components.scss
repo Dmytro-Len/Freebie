@@ -1,0 +1,130 @@
+// buttons
+.btn {
+    width: 152px;
+    height: 58px;
+    // left: 1153px;
+    // top: 40px;
+    border: 1px solid $active-color;
+
+    font: {
+        family: 'League Spartan', sans-serif;
+        weight: 500;
+        size: 18px;
+        color: $active-color;
+    }
+
+    &--md {
+        width: 180px;
+    }
+    &--lg {
+        width: 215px;
+    }
+    &--hg {
+        width: 278px;
+    }
+
+    &:hover {
+        background-color: $active-color;
+        color: $secondary-color;
+        box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259), 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+    }
+}
+
+// titles
+.pre-title {
+    font: {
+        family: 'League Spartan', sans-serif;
+        weight: 500;
+        size: 16px;
+        color: $text-color;
+    }
+}
+
+// cards
+.feature-card {
+    height: 342px;
+    width: 350px;
+    padding: 38px auto 40px;
+    background-color: $bg-color;
+    border: 1px solid $border-color;
+
+    &:hover {
+        background-color: $secondary-color;
+    }
+
+    &__title {
+        text-align: center;
+        text-transform: capitalize;
+
+        &:hover {
+            font: {
+                family: 'League Spartan', sans-serif;
+                weight: 600;
+                size: 22px;
+                color: $active-color;
+            }
+        }
+    }
+
+    &__text {
+        text-align: center;
+
+        font: {
+            family: 'League Spartan', sans-serif;
+            weight: 400;
+            size: 16px;
+            color: $text-color;
+        }
+
+    }
+
+    &__link {
+        text-align: center;
+        text-transform: capitalize;
+
+        &:hover {
+            font: {
+                family: 'League Spartan', sans-serif;
+                weight: 500;
+                size: 16px;
+                color: $active-color;
+            }
+        }
+    }
+
+}
+
+.pricing-card {
+    width: 362px;
+    height: 508px;
+    padding: 50px auto;
+    border: 1px solid $border-color;
+    &__title {
+        text-align: center;
+        text-transform: capitalize;
+        font: {
+            family: 'League Spartan', sans-serif;
+            weight: 600;
+            size: 30px;
+            color: $active-color;
+        }
+    }
+    &__price {
+        text-align: center;
+        font: {
+            family: 'League Spartan', sans-serif;
+            weight: 700;
+            size: 60px;
+            color: $active-color;
+        }
+
+    }
+    &__text {
+        text-align: left;
+    }
+}
+.pricing-card > li {
+    // content: "::before";
+    list-style-image: url('../img/done-marker.svg');
+
+}
