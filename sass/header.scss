@@ -1,0 +1,80 @@
+.nav {
+    display: inline;
+    height: 58px;
+    font: {
+        family: 'League Spartan', sans-serif;
+        weight: 500;
+        size: 18px;
+    }
+
+    &__logo {
+        font: {
+            family: 'League Spartan', sans-serif;
+            weight: 800;
+            size: 22px;
+        }
+        color: $active-color;
+    }
+
+}
+
+.menu {
+    display: inline-flex;
+    width: 420px;
+    margin-right: 393px;
+    justify-content: space-between;
+    &__item {
+    display: block;
+    margin: 55px auto;
+
+    @include btn-static;
+
+    &:hover {
+        color: $active-color;
+        // font-weight: 800;
+    }
+}
+}
+
+.menu__item > a {
+    color: $text-color;
+}
+.login {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    &__enter {
+        margin-right: 28px;
+    }
+}
+
+.sign-in {
+    display: block;
+    margin-right: 28px;
+}
+// POSTER
+.poster {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between  ;
+    padding-top: 14px;
+    &__title {
+        @include title-100;
+    }
+    &__wrap:first-child {
+        margin: 223px 0;
+    }
+    &__wrap > button {
+        margin-right: 40px;
+    }
+    &__pic {
+        width: 501px;
+        height: 906px;
+        margin-top: 14px;
+    }
+
+}
+.bold {
+    color: $active-color;
+    font-weight: 700;
+}

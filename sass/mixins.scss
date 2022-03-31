@@ -1,0 +1,37 @@
+@mixin btn-static {
+    font: {
+        family: 'League Spartan', sans-serif;
+        weight: 500;
+        size: 18px;
+        line-height: 21px;
+    }
+    color: $text-color;
+}
+
+@mixin title-100 {
+    font: {
+        family: 'League Spartan', sans-serif;
+        weight: 100;
+        size: 100px;
+        line-height: 100px;
+    }
+    color: $text-color;
+}
+
+@mixin pre-title {
+    font: {
+        family: 'League Spartan', sans-serif;
+        weight: 500;
+        size: 16px;
+        color: $text-color;
+    }
+}
+
+@mixin section-title {
+    font: {
+        family: 'League Spartan', sans-serif;
+        weight: 100;
+        size: 65px;
+        color: $text-color;
+    }
+}

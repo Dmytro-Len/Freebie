@@ -1,0 +1,14 @@
+.logo {
+    width: 100vw;
+    height: 170px;
+    background-color: $bg-color;
+    &__wrapper {
+        display: flex;
+        min-width: 150px;
+        height: 170px;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}
